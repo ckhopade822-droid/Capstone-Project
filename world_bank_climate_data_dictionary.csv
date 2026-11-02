@@ -1,0 +1,11 @@
+ï»¿Field,Definition
+Climate_Pattern,"Assigned climate archetype using temperature, precipitation, heat-stress and summer-day indicators."
+Pattern_ID,Short identifier for the assigned climate archetype (P1âP5).
+Visual_Marker,Suggested marker shape for charts and scatter plots.
+Pattern_Color_Hex,Suggested hexadecimal color for consistent chart styling.
+P1 rule,Mean temperature <= dataset 25th percentile (11.800 Â°C). Applied first.
+P2 rule,Mean temperature >= median (22.800 Â°C) AND annual precipitation <= 25th percentile (600.000 mm).
+P3 rule,Mean temperature >= median (22.800 Â°C) AND annual precipitation >= 75th percentile (1784.000 mm).
+P4 rule,Heat-stress index >= 75th percentile (40.100 Â°C) OR summer days >= 75th percentile (245.000). Applied after P1âP3.
+P5 rule,All remaining countries; mixed/moderate relative profile.
+Cleaning,"Whitespace trimmed from text, country codes uppercased, numeric columns coerced to numeric, exact duplicate rows removed, and rows sorted by country name. No missing values were imputed."

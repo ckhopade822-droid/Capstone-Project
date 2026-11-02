@@ -1,0 +1,6 @@
+ï»¿Pattern_ID,Climate_Pattern,Visual_Marker,Pattern_Color_Hex,Country_Count,Average_Temperature_C,Average_Annual_Precipitation_mm,Average_Projected_Warming_C,Average_Heat_Stress_C
+P1,Cool / Cold-Season Pattern,Circle,#4F81BD,49,7.620408163,847.7346939,1.92244898,21.64897959
+P2,Hot-Dry Pattern,Triangle,#C0504D,19,26.27894737,169.2210526,1.984210526,39.86315789
+P3,Warm-Wet Pattern,Square,#70AD47,46,26.08043478,2397.869565,1.323913043,40.32608696
+P4,High-Heat-Stress Pattern,Diamond,#ED7D31,22,25.95454545,1239.063636,1.513636364,41.88636364
+P5,Mixed / Moderate Pattern,Open circle,#8064A2,57,19.36491228,916.1982456,1.715789474,33.13684211
